@@ -6,3 +6,7 @@
 html,body{
     height: auto;
 }
+
+body{
+    background: #212121;
+}
