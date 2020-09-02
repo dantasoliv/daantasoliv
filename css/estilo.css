@@ -10,3 +10,21 @@ html,body{
 body{
     background: #212121;
 }
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 100%;
+    color: white;
+}
+
+.box h2{
+    text-align: center;
+}
+
+.box p{
+    margin-top: 20px;
+}
