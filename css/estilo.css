@@ -40,6 +40,42 @@ header{
     font-size: 23px;
 }
 
+nav.menu-mobile{
+    display: none;
+    float: right;
+}/*Menu Mobile*/
+nav.menu-mobile h2{
+    cursor: pointer;
+    color: white;
+}    
+nav.menu-mobile ul{
+    display: none;
+    width: 100%;
+    background: #006064;
+    position: absolute;
+    left: 0;
+    top: 50;
+    z-index: 999;
+    text-align: center;
+
+
+}/*Menu Mobile*/
+
+nav.menu-mobile li{
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+}/*Menu Mobile*/
+
+nav.menu-mobile li.selected{
+    background: #003536;
+}/*Menu Mobile*/
+
+nav.menu-mobile a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}/*Menu Mobile*/
+
 nav.menu-desktop li.selected{
     font-weight: bold;
 }
@@ -116,6 +152,11 @@ footer{
 
     .main{
         padding-left: 0;
+    }
+
+    nav.menu-desktop{display: none;}
+    nav.menu-mobile{
+        display: block;
     }
 
   }
